@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppCfg Default="false" CfgFormatVersion="1.3" ThisFileVersion="3.3">
+  <AppInfo>
+    <Signature><Name>STR_FUSION360FS</Name></Signature>
+  </AppInfo>
+  <CfgProperties>
+    <ID>ID_STR_FUSION360FS</ID>
+    <Name>STR_FUSION360FS</Name>
+    <InheritsFromID>ID_STR_FUSION360FS</InheritsFromID>
+  </CfgProperties>
+  <ButtonActions />
+  <MacroTable>
+    <MacroEntry><ID>S</ID><KeyStroke><Key>16</Key></KeyStroke></MacroEntry>
+  </MacroTable>
+  <Devices>
+    <Device>
+      <ID>ID_ProductID_C655</ID>
+      <ButtonBank>
+        <ID>FusionSolidEnvironmentSolidTab</ID>
+        <Button><Input><ActionID>HIDButton_4</ActionID></Input><Output><ActionID>S</ActionID></Output></Button>
+        <Button><Input><ActionID>HIDButton_7</ActionID></Input><Output><ActionID>ExistingRadialMenu</ActionID></Output></Button>
+      </ButtonBank>
+    </Device>
+    <Device>
+      <ID>ID_ProductID_C658</ID>
+      <ButtonBank>
+        <ID>FusionSolidEnvironmentSketchTab</ID>
+        <Button><Input><ActionID>HIDButton_4</ActionID></Input><Output><ActionID>S</ActionID></Output></Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+</AppCfg>
